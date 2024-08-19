@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Road Trip Planner</title>
+  <link rel="stylesheet" href="trip-details.component.scss">
+</head>
+<body>
+<div class="container">
+  <!-- Header Section -->
+  <header class="header">
+    <img src="assets/road_trip_1.jpg" alt="Road Trip Icon" class="thumbnail">
+    <div class="trip-info">
+      <h1 class="trip-title">California Coast Road Trip</h1>
+      <p class="trip-date">August 5-12, 2024</p>
+    </div>
+  </header>
+
+  <!-- Trip Summary Section -->
+  <section class="trip-summary">
+    <div class="summary-item">
+      <img src="distance-icon.svg" alt="Distance Icon">
+      <p>Total Distance: 500 miles</p>
+    </div>
+    <div class="summary-item">
+      <img src="time-icon.svg" alt="Time Icon">
+      <p>Estimated Time: 8 hours</p>
+    </div>
+    <div class="summary-item">
+      <img src="stops-icon.svg" alt="Stops Icon">
+      <p>Number of Stops: 5</p>
+    </div>
+  </section>
+
+  <!-- Itinerary Section -->
+  <section class="itinerary">
+    <div class="day">
+      <h2>Day 1</h2>
+      <p>Stop 1: San Francisco</p>
+      <p>Activity: Sightseeing</p>
+      <p>Distance: 150 miles</p>
+    </div>
+    <!-- Repeat for each day -->
+  </section>
+
+  <!-- Map Section -->
+  <section class="map">
+    <img src="map-thumbnail.jpg" alt="Map Thumbnail">
+    <p>Expand for full map view</p>
+  </section>
+
+  <!-- Accommodation & Dining Section -->
+  <section class="accommodation-dining">
+    <div class="card">
+      <img src="hotel.jpg" alt="Hotel Image">
+      <p>Hotel: Ocean View Inn</p>
+      <p>Rating: ★★★★☆</p>
+    </div>
+    <!-- Repeat for each card -->
+  </section>
+
+  <!-- Checklist Section -->
+  <section class="checklist">
+    <h2>Packing List</h2>
+    <div class="checklist-item">
+      <input type="checkbox" id="item1">
+      <label for="item1">Sunscreen</label>
+    </div>
+    <!-- Repeat for each item -->
+  </section>
+
+  <!-- Footer Section -->
+  <footer class="footer">
+    <button class="btn share">Share</button>
+    <button class="btn edit">Edit Trip</button>
+    <button class="btn dashboard">Return to Dashboard</button>
+  </footer>
+</div>
+</body>
+</html>
