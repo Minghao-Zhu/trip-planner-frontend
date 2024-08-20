@@ -1,0 +1,79 @@
+// Variables
+$primary-color: #000;
+$secondary-color: #555;
+$background-color: #fff;
+$font-family: 'Arial', sans-serif;
+$padding: 16px;
+
+body {
+  font-family: $font-family;
+  background-color: $background-color;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 390px;
+  margin: auto;
+  padding: $padding;
+}
+
+// Header Section
+.header {
+  text-align: center;
+  margin-bottom: $padding;
+
+  .trip-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+  }
+
+  .trip-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 8px;
+
+    .trip-date {
+      display: flex;
+      align-items: center;
+      font-size: 14px;
+      color: $secondary-color;
+
+      i {
+        font-size: 18px;
+        margin-right: 4px;
+      }
+    }
+
+    .icons {
+      display: flex;
+      gap: 12px;
+
+      i {
+        font-size: 24px;
+        color: $primary-color;
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+// Itinerary Section
+.itinerary {
+  .day {
+    margin-bottom: $padding;
+
+    h2 {
+      font-size: 18px;
+      font-weight: bold;
+      margin-bottom: 8px;
+    }
+
+    p {
+      margin: 4px 0;
+      font-size: 16px;
+    }
+  }
+}
